@@ -4,16 +4,41 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css">
     <title>Statistic gathering and generating</title>
+    <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet"> 
   </head>
   <body>
     <header>
       <h1>here I am trying to gather statistic input and give output</h1>
-
     </header>
 
-<div class="info">
-  <p>here will be user's info</p>
+    <div class="wrapper">
+      <div class="input-field">
+        <form action="" method="post">
+          <p>
+            <label for="POST-name">Name:</label><br>
+            <input id="POST-name" type="text" name="name">
+            <input type="submit" value="Save">
+          </p>
+          <p>
+            <label for="POST-age">Alter:</label><br>
+            <input id="POST-age" type="text" name="name">
+            <input type="submit" value="Save">
+          </p>
+        </form>
+      </div>  <!-- form end -->
+    </div> <!-- wrapper end -->
+      <footer>
+      <p>&copy; Copyright <!-- this will set the current year -->
+        <script language="JavaScript" type="text/javascript">
+            now = new Date
+            theYear=now.getYear()
+            if (theYear < 1900)
+            theYear=theYear+1900
+            document.write(theYear)
+        </script>
+      | Thomas Rudel
+      </p>
+    </footer>
 
-</div>
   </body>
 </html>
